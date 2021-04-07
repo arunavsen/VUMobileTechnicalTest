@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    <a>@Html.ActionLink("Sign Up", "CreateUser", "User", null, new { @class = "btn btn-primary" })</a>
+    <a>@Html.ActionLink("Log In", "LoginUser", "User", null, new { @class = "btn btn-success" })</a>
+</div>
+
